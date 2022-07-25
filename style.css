@@ -195,10 +195,14 @@ footer h3 {
   }
   .services {
     display: block;
+    width: 380px;
   }
   .service {
     width: 100%;
     margin: 10px;
+  }
+  .projects {
+    width: 100%;
   }
   .project {
     width: 20%;
