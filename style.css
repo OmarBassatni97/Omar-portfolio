@@ -4,7 +4,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
 }
 nav {
@@ -32,6 +32,17 @@ nav {
 }
 .bannerinfo {
   flex: 1;
+  position: relative;
+  right: 0;
+  animation: basicinfo 1.2s ease-in-out forwards;
+}
+@keyframes basicinfo {
+  0% {
+    right: 200%;
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 .bannercontent {
   display: flex;
@@ -145,7 +156,7 @@ h3 {
 .service {
   display: block;
   width: 20%;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  box-shadow: lightskyblue 0px 2px 8px 0px;
   border-radius: 10px;
   padding: 20px;
 }
