@@ -215,4 +215,7 @@ footer h3 {
   .project {
     width: 20%;
   }
+  .footerinfo h3 {
+    font-size: 20px;
+  }
 }
